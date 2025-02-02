@@ -1,0 +1,20 @@
+name: "Trigger Action - your.email@example.com"
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: 24ds1000121@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
+        
+      - name: Print Workflow Name
+        run: |
+          echo "Workflow Name: ${{ github.workflow }}"
