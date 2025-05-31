@@ -49,6 +49,6 @@ tests:
     assert:
       - type: llm-rubric
          criteria:|
-           The response should be a complete, syntactically correct curl command in this exact structure:
-           curl -H "Authorization: Bearer $API_KEY" "https://api.github.com/orgs/microsoft/repos?per_page=9&sort=stars&direction=desc"
-           It should not omit any parameters, misplace quotation marks, or use incorrect header formatting.
+                  The response should be a complete, syntactically correct curl command in this exact structure:
+                  curl -H "Authorization: Bearer $API_KEY" "https://api.github.com/orgs/microsoft/repos?per_page=9&sort=stars&direction=desc"
+                  It should not omit any parameters, misplace quotation marks, or use incorrect header formatting.
