@@ -47,11 +47,6 @@ tests:
 
    - name: "Follows correct curl command structure"
      assert:
-       - llm-rubric:
-           rubric: 
-
-   - name: "Follows correct curl command structure"
-     assert:
        - type: llm-rubric
          criteria: |
            The response should be a complete, syntactically correct curl command in this exact structure:
